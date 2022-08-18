@@ -1,4 +1,4 @@
-FROM node:16-bullseye-main
+FROM node:16-bullseye-slim
 WORKDIR /apps
 COPY . .
 RUN npm install
