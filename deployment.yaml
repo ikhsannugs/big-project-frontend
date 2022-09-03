@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: mern-frontend
-        image: 898130718046.dkr.ecr.ap-south-1.amazonaws.com/big-project-frontend:IMAGE_TAG
+        image: irwankilay/frontend-prod:IMAGE_TAG
         ports:
         - containerPort: 3000
