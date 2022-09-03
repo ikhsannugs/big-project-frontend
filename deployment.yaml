@@ -33,12 +33,5 @@ spec:
       containers:
       - name: mern-frontend
         image: 898130718046.dkr.ecr.ap-south-1.amazonaws.com/big-project-frontend:IMAGE_TAG
-        resources:
-          limits:
-            memory: 400Mi
-            cpu: 100m
-          requests:
-            memory: 80Mi
-            cpu: 50m
         ports:
         - containerPort: 3000
